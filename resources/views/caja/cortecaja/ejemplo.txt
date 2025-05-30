@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+      font-family: sans-serif;
+    }
+    @page {
+      margin: 160px 50px;
+    }
+    header { 
+      padding:1em;
+      position: fixed;
+      left: 0px;
+      top: -158px;
+      right: 0px;
+      height:80px;
+      background-color: #ddd;
+      text-align: center;
+    }
+    header h1{
+      margin: 3px 0;
+    }
+    header h2{
+      margin: 0 0 3px 0;
+    }
+    footer {
+      position: fixed;
+      left: 0px;
+      bottom: -50px;
+      right: 0px;
+      height: 40px;
+      border-bottom: 2px solid #ddd;
+    }
+    footer .page:after {
+      content: counter(page);
+    }
+    footer table {
+      width: 100%;
+    }
+    footer p {
+      text-align: right;
+    }
+    footer .izq {
+      text-align: left;
+    }
+    #content{
+      text-align: center;
+      border: 1px solid;
+    }
+    </style>
+</head>
+<body>
+  <header>
+    <h2>Servicios informaticos s.a de c.v</h2>
+    <h3>Cajero : Rogelio pedraza pedraza</h3>
+  </header>
+  <footer>
+    <table>
+      <tr>
+        <td>
+            <p class="izq">
+              Desarrolloweb.com
+            </p>
+        </td>
+        <td>
+          <p class="page">
+            Página
+          </p>
+        </td>
+      </tr>
+    </table>
+  </footer>
+  <div id="content">
+    <table class="table"  cellpadding="1" cellspacing="1">
+      <thead>
+        <tr>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>{{$idaper}}</p>
+</body>
+</html>
+-------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style>
+	h3{
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.contenido{
+		font-size: 20px;
+    /*border:1px solid;*/
+	}
+  table, td, th {  
+  border: 1px solid #ddd;
+  /*text-align: right;*/
+  }
+
+  /*.left{
+    text-align: left;
+  }
+  .right{
+    text-align: right;
+  }*/
+
+table {
+  /*border-collapse: collapse;*/
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+th, td {
+  padding: 15px;
+}
+.tdcenter{
+ 	text-align: center;
+}
+	
+</style>
+</head>
+<body>
+	<h3>Corte del cajero</h3>
+	<hr>
+	<div class="contenido">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="left">Fecha de operacion :</td><td class="right">2020-05-20</td>
+        </tr>
+        <tr>
+          <td class="left">Nombre del cajero :</td><td class="right">{{$name}}</td>
+        </tr>
+        <tr>
+          <td class="tdcenter" colspan="2"><strong>Movimientos</strong></td>
+        </tr>
+        <tr>
+          <td>Fondo de caja</td><td class="right">1500.00</td>
+        </tr>
+        <tr>
+          <td>Efectivo en caja</td><td class="right">{{$final}}</td>
+        </tr>
+        <tr>
+          <td>Ventas en efectivo</td><td class="right">{{$total}}</td>
+        </tr>
+         <tr>
+          <td>Faltante</td><td class="right">20,000.00</td>
+        </tr>
+        <tr>
+          <td>Sobrante</td><td class="right">0,000.00</td>
+        </tr>
+        
+      </tbody>
+    </table>
+	</div>
+</body>
+</html>

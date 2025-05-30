@@ -1,0 +1,72 @@
+/*****************************************************************/
+/*the container must be positioned relative:*/
+#autocompleteventa{
+  margin-top:40px;
+  background-color: #7f7f9f;
+  position: absolute;
+  box-shadow: 0 1px 3px 0px;
+  border-radius: 3px;
+  border: 1px solid #FAFAFA;
+  z-index: 100;
+  /*max-height: 250px;*/
+  overflow-y: auto;
+  margin-left: 40px;
+  background:red;
+
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+/*Selected color lis of products*/
+.selected {
+  /*background:#282c34;*/
+  /*color:#689577;*/
+  /*background:#26394e;*/
+  background:#0C162D;
+  color:white;
+  /*background:#9a9a9a;
+  /*color: #ffffff;*/
+}
+/*.list-group-item{
+background-color: #e0eafc;
+color: #3f80ea;
+} */
+
+/**estilo de inputs */ 
+.input_style{
+  border: 1px solid #7f7f9f;
+  border-radius: 5px;
+  color: #333;
+  font-size: 20px;
+  margin: 0 0 20px;
+  padding: .5rem 1rem;
+  height: 50px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+.input_style_total{
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+/**ajuste de impresion de pantalla para el ticket*/
+#ticket{
+  display: none;
+}
+/**input search*/
+.div-content-search .fa-search {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  color: #9ca3af
+}
+
+.input_search {
+  height: 40px;
+  text-indent: 33px;
+  border-radius: 10px
+}
+
+.input_search:focus {
+  box-shadow: 0 0 5px #03569F;
+}

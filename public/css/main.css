@@ -1,0 +1,344 @@
+.size_input {
+    width: 100px;
+    background-color: #ffffff;
+    border: 0;
+}
+
+.size_input_change {
+    width: 100px;
+    border: 0;
+}
+
+.panel_descripcion {
+    text-align: center;
+    border: 1px solid rgb(34, 186, 233);
+    border-radius: 5px;
+    background-color: rgb(0, 114, 236);
+    color: white;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.margin-left {
+    margin-left: 20px !important;
+}
+
+/* .total_derecha {
+    border: 1px solid;
+    float: right !important;
+  } */
+/*estilo header view agregar producto*/
+/*.styledivproducto {
+    border-width: 1 px;
+    border-style: solid;
+    padding: 5px;
+    
+}*/
+/*margin top view secion*/
+.margindivsection{
+    margin-top: 5px;
+}
+
+/*estilo del modal div detalle ventas*/
+.detalle_descripcion {
+    border: 1px solid white;
+}
+/*estilos de la letra de las tablas*/
+#detalles td {
+    font-family: monospace;
+    /* white-space: pre;
+  overflow: hidden;
+  width: 5ch;
+  text-overflow: ellipsis; */
+}
+#detalles th {
+    /* font-family: monospace; */
+    /*height:20px; */
+    /* width:300%; */
+}
+/*scroll de la tabla de productos*/
+#detalles th {
+    background:  #0C162D ;
+    color: white;
+    border: 1px solid;
+    font-size: 11px;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.tableFixHead {
+    /*overflow: scroll;*/
+    overflow: auto;
+    /*altura*/
+    /* height: 300px; */
+    /*anchura*/
+    width: 100%;
+    /*padding: auto;*/
+}
+.tableFixHead {
+    /*background-color: #D5DBDB;*/
+    border: 1px solid #A9A9A9;
+    overflow: auto;
+}
+
+.tableFixHead thead th {
+    position: sticky;
+
+    top: 0;
+}
+/*fin*/
+/* #detalles > td {
+    border: 1px solid;
+    font-size: 11px;
+    text-overflow: ellipsis;
+} */
+
+/* #venta_realizada{
+    width:126px;
+    height:40px;
+} */
+
+/*ESTILO PARA EL IMPUT DE BUSQUEDA CON JQUERY UI*/
+/* .ui-menu-item{
+    width:540px;
+    height: 68px;
+    border: 1px solid #ececf9;
+}
+.ui-widget-content .ui-state-active {
+    background-color: white !important;
+    border: none !important;
+}
+.list_item_container {
+    width:540px;
+    height: 68px;
+    float: left;
+    margin-left: -4px;
+}
+.ui-widget-content .ui-state-active .list_item_container {
+    background-color: #DCDCDC;
+}
+
+.img_producto {
+    float: left;
+     margin: 0px 15px 15px 0px;
+   
+}*/
+.img_producto img {
+    width: 80px;
+    height: 60px;
+    float: left;
+}
+/*.label{
+  color:black;
+   
+} */
+
+.ui-autocomplete-loading {
+    background: url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/images/ui-anim_basic_16x16.gif)
+        no-repeat right center;
+}
+
+
+/*FORMATO DIV DE LA LEYENDA TOTAL EN LAS TABLA ENTRADA DE PRODUCTOS*/
+.letdivtot{
+    
+    /*border:1px solid#eeeeee;*/
+    
+    /*margin: 10px;
+    padding-top: 3px;*/
+    /*padding: 1rem; */
+
+    /*text-align: center;*/
+
+}
+.input_all_total{
+    margin-top: 5px;
+}
+
+.divtotalentrada{
+    border:1px solid#eeeeee;
+    /*margin: 10px;*/
+    /*padding: 1rem; */
+    text-align: center;
+}
+.divtotalentrada #total_general{
+    background-color: white;
+}
+/*FONT SIZE DEL INPUT DE TOTAL Y PAGO MODULO ENTRADAS DE PRODUCTOS*/
+table .inputfontsize{
+    font-size: 24px; 
+} 
+.btncancelar{
+ /*   border: 1px solid rgb(34, 186, 233);*/
+    /*margin: 10px;*/
+}
+
+/*STYLE BORDER TABLE GENERAL LIST*/
+.ss{
+    box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+
+  /*text-align: center;
+  background-color: #f1f1f1;*/
+    /* -webkit-perspective: 1000px;
+  perspective: 1000px;
+  padding: 50px
+  position: relative;
+  margin: 10px auto;
+  width: 500px;*/
+/* box-shadow: 4px 4px 10px 4px rgba(0,0,0,0.2);
+  transition: 0.3s;*/
+ /*border-width: 4px;
+ border-style: outset;*/
+   /*border:4px #aaaaaa;
+   /*border-width: 3px;
+   border-style: solid;*/
+}
+
+/*SHOW READY ONLY INPUT*/
+.lectura{
+    pointer-events: none;
+}
+/*SHOW COLORS THE BUTTONS AND STYLE BOX*/
+.btncolor{
+    /*background-color: white;
+    border-radius: 6px;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    border-color: #e7e7e7;*/
+   /* margin: 4px 2px;*/
+}
+.btncolor:hover{
+    /*background-color:#85F881;
+    color: black;*/
+}
+/*COLOR OF THEAD ON TABLES*/
+.color_thead{
+    background-color: #4dc48a;
+    color: white;
+}
+
+/*HIDE INPUTS BOX CURT*/
+#numapertura{
+    display: none;
+}
+
+.margincss{
+    margin-top: 5px;
+}
+/**/
+/*p.color-letter{
+    color: #ffffff;
+}
+i.nav-icon{
+    color: #ffffff;
+}*/
+/*STYLE FOR BUTTONS*/
+.btn1{
+    /*background-color: #D1ECF1 !important;*/
+    background-color: #242D3E !important;
+    color: #ffffff !important;
+}
+.btn2{
+    /*background-color: #D1ECF1 !important;*/
+    background-color: #FF4500 !important;
+    color: #ffffff !important;
+}
+.btn3{
+    /*background-color: #D1ECF1 !important;*/
+    background-color: #32A350 !important;
+    color: #ffffff !important;
+}
+.btn4{
+    /*background-color: #D1ECF1 !important;*/
+    background-color: #BB0000 !important;
+    color: #ffffff !important;
+}
+.btn5{
+    border-radius: 7px !important;
+    background-color: #E03A3C !important;
+    color: #ffffff !important;
+}
+.btn5:hover{
+    color: #ffffff !important;
+    background-color: #ff3333 !important;
+}
+.btn6{
+    border-radius: 7px !important;
+    background-color: #03569F !important;
+    color: #ffffff !important;
+}
+.btn6:hover{
+    color: #ffffff !important;
+    background-color: #3A416F !important;
+}
+.btn7{
+    border-radius: 7px !important;
+    background-color: #222742 !important;
+    color: #ffffff !important;
+}
+.btn7:hover{
+    color: #ffffff !important;
+    background-color: #6C757D !important;
+}
+.btn8{
+    border-radius: 7px !important;
+    background-color: #35B653 !important;
+    color: #ffffff !important;
+}
+.btn8:hover{
+    color: #ffffff !important;
+    background-color: #32cd32 !important;
+}
+.btn9{
+    border-radius: 7px !important;
+    background-color: #11D3BC !important;
+    color: #ffffff !important;
+}
+.btn9:hover{
+    color: #ffffff !important;
+    background-color: #17A2B8 !important;
+}
+.btn10{
+    border-radius: 7px !important;
+    background-color: #9C28B1 !important;
+    color: #ffffff !important;
+}
+.btn10:hover{
+    color: #ffffff !important;
+    background-color: #3A416F !important;
+}
+/*BORDER RADIUS INPUT SEARCH*/
+.input-search{
+    /*border-radius: 20px !important;*/
+    border-radius: 0px 20px 20px 0px !important;
+    border: 1px solid #2d9fd9 !important;
+}
+
+/*BORDER RADIUS DIV*/
+.div_radius{
+    border-radius: 20px !important;
+    border: 1px solid #5AE3A8 !important;
+}
+
+/****STYLE FOR INPUT FOTM USER****/
+.style-modal-form{
+    background-color: #0C162D;
+    color: #ffffff !important;
+}
+.style-input{
+    background-color: #04193E !important;
+    color:white !important;
+}
+.style-icon-fas{
+    background-color: #04193E !important;
+    color:white !important;
+}
+/**/
+.nav-item > .active{
+    background-color: #04193E !important;
+    color:white !important;
+}
+.nav-link:hover{
+    background-color: #04193E !important;
+    color:white !important;
+}
